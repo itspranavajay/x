@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.heading-color
+{
+    color: #4d4d4d;
+}
+.single-news
+{
+    font-size: 0.9rem !important;
+}
+@media screen and (max-width:768px) {
+    h1,h2,h3,h4,h5,h6
+    {
+        font-size: 0.9rem;
+    }
+    p,span
+    {
+        font-size: 0.7rem;
+    }
+    .one
+    {
+        font-size: 0.5rem;
+    }
+    
+}
